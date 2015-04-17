@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ID=`id -u -n`
+if [ $ID == "root" ]; then
+	cd /usr/lib/tora
+	while [ 1 ]; do
+		su www-data -s /bin/bash -c "neko tora"
+		#su www-data -s /bin/bash -c "neko -interp tora"
+	done
+else
+	printf "%s\n" "Please run with sudo"
+fi

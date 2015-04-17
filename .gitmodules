@@ -1,0 +1,6 @@
+[submodule "tora"]
+	path = tora
+	url = https://github.com/jasononeil/tora.git
+[submodule "neko"]
+	path = neko
+	url = git@github.com:HaxeFoundation/neko.git
