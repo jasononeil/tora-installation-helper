@@ -1,6 +1,6 @@
 [submodule "neko"]
 	path = neko
-	url = git@github.com:HaxeFoundation/neko.git
+	url = https://github.com/HaxeFoundation/neko.git
 [submodule "tora"]
 	path = tora
-	url = git@github.com:HaxeFoundation/tora.git
+	url = https://github.com/HaxeFoundation/tora.git
